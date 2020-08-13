@@ -1,0 +1,84 @@
+body,
+html {
+    // font-family: $ubuntu;
+    color    : $color-black;
+    font-size: 0.75rem;
+    height   : 100%;
+    width    : 100%;
+    margin   : 0;
+    padding  : 0;
+    overflow : hidden;
+    position : relative;
+}
+#content-container {
+    position  : absolute;
+    z-index   : 5;
+    min-height: 100%;
+    width     : 100%;
+}
+.content-block {
+    min-height: 95%;
+    width     : 100%;
+}
+//--> TITLES
+h1 {
+    font-family: $display-title;
+    font-weight: 900;
+}
+// Misc formatting
+.clearer {
+    clear: both;
+}
+.text-clr-1 {
+    color: $color-1;
+}
+.text-clr-2 {
+    color: $color-2;
+}
+.text-clr-3 {
+    color: $color-3;
+}
+.text-clr-4 {
+    color: $color-4;
+}
+.text-clr-5 {
+    color: $color-5;
+}
+.text-clr-6 {
+    color: $color-6;
+}
+.text-keyword {
+    text-transform: uppercase;
+}
+.valign {
+    display          : -webkit-box;
+    display          : -ms-flexbox;
+    display          : flex;
+    -webkit-box-align: center;
+    -ms-flex-align   : center;
+    align-items      : center;
+}
+@media only screen and (min-width: 576px) {
+    body,
+    html {
+        font-size: 0.85rem;
+    }
+}
+@media only screen and (min-width: 768px) {
+    body,
+    html {
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 992px) {
+    body,
+    html {
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    body,
+    html {
+        font-size: 1.25rem;
+    }
+}

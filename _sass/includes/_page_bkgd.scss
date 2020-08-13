@@ -1,0 +1,33 @@
+#bkgd-box {
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.container-fluid, .row, .col-12 {height: 100%;}
+.movie-container {
+	display: inline-block;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.movie-player, iframe {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+@media (orientation: landscape) {}
+@media (orientation: portrait) {}
+
+@media only screen and (min-width: 560px) {}
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 1170px) {}

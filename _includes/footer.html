@@ -1,0 +1,29 @@
+<footer>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    {}% if site.show_social_icons %
+                        % include social_links.html %
+                    % endif %}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-5 offset-md-1 col-xl-4 offset-xl-2">
+                    <span class="text-box">All content copyright .</span>
+                </div>
+                <div class="col-12 col-sm-6 col-md-5 col-xl-4">
+                    <span class="text-box">&copy;{{ site.time | date: '%Y' }} &ndash; All rights reserved.</span>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-2">
+                    <span>//P <a href="#">617 294 9493</a></span>
+                </div>
+                <div class="col-2">
+                    <span>//E <a href="#">inquiries@minitru.io</a></span>
+                </div>
+            </div> -->
+        </div>
+    </section>
+</footer>

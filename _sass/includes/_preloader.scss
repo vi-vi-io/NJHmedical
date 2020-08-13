@@ -1,0 +1,65 @@
+.preloader {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	width: 100%;
+	background: $color-black;
+	// background: linear-gradient(0deg, darken($color-1, 10%) 45%, $color-1 45%);
+	position: absolute;
+	z-index: 99;
+}
+
+.loader {
+	// max-width: 15rem;
+	width: 45%;
+	height: auto;
+	stroke-linecap: round;
+}
+
+circle {
+	fill: none;
+	stroke-width: 3.5;
+	animation-name: preloader;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	transform-origin: 170px 170px;
+	will-change: transform;
+
+	&:nth-of-type(1) {
+		stroke: $color-3;
+		stroke-dasharray: 550px;
+	}
+
+	&:nth-of-type(2) {
+		stroke: $color-3;
+		stroke-dasharray: 500px;
+	}
+
+	&:nth-of-type(3) {
+		stroke: $color-3;
+		stroke-dasharray: 450px;
+	}
+
+	&:nth-of-type(4) {
+		stroke: $color-3;
+		stroke-dasharray: 300px;
+	}
+
+	@for $i from 1 through 4 {
+		&:nth-of-type(#{$i}) {
+			animation-delay: -#{$i * 0.15}s;
+		}
+	}
+}
+
+@keyframes preloader {
+	50% {
+		transform: rotate(360deg);
+	}
+}
+
+@media only screen and (min-width: 560px) { .loader {width: 40%;} }
+@media only screen and (min-width: 768px) { .loader {width: 35%;} }
+@media only screen and (min-width: 1170px) { .loader {width: 30%;} }
