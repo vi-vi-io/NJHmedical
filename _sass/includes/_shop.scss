@@ -1,0 +1,24 @@
+section#shop {
+    // .row {margin-bottom: 50px;}
+    .white-box {
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+    .white-box.pink-ellipse {background-image: url(../images/shop_bkgd_ellipse_pink.svg);}
+    .white-box.green-ellipse {background-image: url(../images/shop_bkgd_ellipse_green.svg);}
+    .white-box.ltgrey-ellipse {background-image: url(../images/shop_bkgd_ellipse_ltgrey.svg);}
+    svg#order_basket {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: 40px auto;
+    }
+    button#form_submit_btn {
+        margin: 40px auto 100px;
+    }
+}
+
+@media only screen and (min-width: 576px) {}
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {}

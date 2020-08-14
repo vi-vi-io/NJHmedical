@@ -1,11 +1,36 @@
 section#hero {
-    .container-fluid {padding: 0;}
-    svg#hero_banner {
-        width: 100%;
+    .container-fluid {
+        padding: 0;
+        img.hero_banner, img.hero_title {
+            max-width: 100%;
+            height: auto;
+            margin: 0;
+        }
+        h2, h3, p {text-align: center;}
+        h2 {font-size: 1.5em;}
+        h2, h3 {margin-top: 40px;}
     }
 }
 
 @media only screen and (min-width: 576px) {}
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    section#hero {
+        .container-fluid {
+            img.hero_title {
+                max-width: none;
+                margin-bottom: 60px;
+                z-index: 10;
+                position: relative;
+            }
+        }
+        h3 {margin-top: 0;}
+    }
+}
 @media only screen and (min-width: 992px) {}
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    section#hero {
+        .container-fluid {
+            img.hero_banner {min-width: 100%;}
+        }
+    }
+}

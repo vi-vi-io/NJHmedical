@@ -36,6 +36,7 @@ img {
 .text-clr-4 {color: $color-4;}
 .text-clr-5 {color: $color-5;}
 .text-wt-700 {font-weight: 700;}
+.text-wt-900 {font-weight: 900;}
 
 .valign {
     display          : -webkit-box;
@@ -51,24 +52,57 @@ section.section-middle {
     background-image: url('../images/section_bkgd_ellipse.png');
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% auto;
 }
 .white-box {
     background: $color-white;
     text-align: center;
-    padding: 60px;
-    height: 90%;
-    margin: 5% 30px;
-    box-shadow: 0px 2px 5px rgba(102, 162, 255, 0.12);
+    padding: 20px;
+    // height: 90%;
+    margin: 5% 10px;
+    box-shadow: 0px 2px 10px rgba(102, 162, 255, 0.2);
     border-radius: 65px;
 }
+// form elements
+.selector-box {
+    text-align: center;
+    input.quantity {
+        // display: block;
+        width: 80px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid $color-1;
+        color: $color-1;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+button.btn {
+    color: $color-4;
+    font-weight: 600;
+    background: rgba($color-4, 0);
+    border: 2px solid $color-4;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+    transition-duration: 500ms;
+    &:hover {
+        color: $color-white;
+        background: rgba($color-4, 1);
+        transition-duration: 500ms;
+    }
+}
 // titles
+h2 {
+    font-weight: 500;
+    font-size: 1.5em;
+}
+h3 {
+    font-weight: 800;
+    color: $color-1;
+}
 .section-title {
     margin: 50px auto;
-    h3 {
-        font-weight: 800;
-        color: $color-1;
-    }
     img {
         display: block;
         margin: 10px auto 20px;
@@ -93,26 +127,14 @@ h5 {
 }
 
 @media only screen and (min-width: 576px) {
-    body,
-    html {
-        // font-size: 0.85rem;
-    }
+    .white-box {padding: 25px;}
 }
 @media only screen and (min-width: 768px) {
-    body,
-    html {
-        // font-size: 1rem;
-    }
+    .white-box {padding: 35px;}
 }
 @media only screen and (min-width: 992px) {
-    body,
-    html {
-        // font-size: 1.1rem;
-    }
+    .white-box {padding: 45px;}
 }
 @media only screen and (min-width: 1200px) {
-    body,
-    html {
-        // font-size: 1.25rem;
-    }
+    .white-box {padding: 60px;}
 }
