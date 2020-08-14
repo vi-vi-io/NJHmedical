@@ -1,4 +1,8 @@
-
+section#cta {
+    .container-fluid {max-width: 1500px;}
+    .row {margin-bottom: 50px;}
+    .img-cta-globe {margin: 50px auto;}
+}
 
 @media only screen and (min-width: 576px) {}
 @media only screen and (min-width: 768px) {}

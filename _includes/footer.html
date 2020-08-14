@@ -3,9 +3,9 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    {}% if site.show_social_icons %
-                        % include social_links.html %
-                    % endif %}
+                    {% if site.show_social_icons %}
+                        {% include social_links.html %}
+                    {% endif %}
                 </div>
             </div>
             <div class="row">

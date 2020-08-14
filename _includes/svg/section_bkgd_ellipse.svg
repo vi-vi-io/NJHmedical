@@ -1,0 +1,9 @@
+<svg class="section_bkgd_ellipse" viewBox="0 0 1440 946" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="735" cy="424" rx="809" ry="424" fill="url(#paint0_linear)"/>
+    <defs>
+        <linearGradient id="paint0_linear" x1="708" y1="274" x2="735" y2="848" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E3EEFF" stop-opacity="0"/>
+            <stop offset="1" stop-color="#E3EEFF"/>
+        </linearGradient>
+    </defs>
+</svg>

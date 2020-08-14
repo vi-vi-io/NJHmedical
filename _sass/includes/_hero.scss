@@ -1,0 +1,11 @@
+section#hero {
+    .container-fluid {padding: 0;}
+    svg#hero_banner {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 576px) {}
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {}

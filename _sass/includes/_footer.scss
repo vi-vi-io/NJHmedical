@@ -1,4 +1,10 @@
-
+footer section {
+    background: rgb(103,101,180);
+    background: linear-gradient(90deg, rgba(103,101,180,1) 0%, rgba(104,144,227,1) 100%);
+    color: $color-white;
+    padding: 30px;
+    margin-top:50px;
+}
 
 @media only screen and (min-width: 576px) {}
 @media only screen and (min-width: 768px) {}
