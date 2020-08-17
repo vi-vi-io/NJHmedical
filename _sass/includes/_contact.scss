@@ -1,0 +1,25 @@
+section#contact {
+    * {transition-duration: 500ms;}
+    svg {
+        transition-duration: 500ms;
+        &:hover {
+            transition-duration: 500ms;
+            .superhero_bubble {
+                transition-duration: 500ms;
+                transform-origin: center;
+                transform: rotate(5deg);
+                &:hover {transition-duration: 500ms;}
+            }
+            .speech_bubble, .side_bubble {
+                transition-duration: 500ms;
+                transform-origin: center;
+                transform: scale(1.05) rotate(-2deg);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) {}
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {}

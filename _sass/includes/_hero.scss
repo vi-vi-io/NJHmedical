@@ -17,20 +17,32 @@ section#hero {
     section#hero {
         .container-fluid {
             img.hero_title {
-                max-width: none;
-                margin-bottom: 60px;
+                max-width: 400px;
+                margin-bottom: 40px;
                 z-index: 10;
                 position: relative;
             }
+            h2 {margin-top: -150px;}
         }
-        h3 {margin-top: 0;}
     }
 }
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    section#hero {
+        .container-fluid {
+            // img.hero_banner {min-width: 100%;}
+            img.hero_title {max-width: 600px;}
+        }
+    }
+}
 @media only screen and (min-width: 1200px) {
     section#hero {
         .container-fluid {
             img.hero_banner {min-width: 100%;}
+            img.hero_title {
+                max-width: none;
+                margin: 0 auto 40px;
+            }
+            h2 {margin-top: 30px;}
         }
     }
 }

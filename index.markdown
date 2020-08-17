@@ -4,6 +4,7 @@ title: "Welcome"
 ---
 
 <div id="content-container">
+	{% include modal_content.html %}
 	{% include nav.html %}
 	{% include hero.html %}
 	{% include cta.html %}

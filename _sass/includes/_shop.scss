@@ -1,12 +1,25 @@
 section#shop {
     // .row {margin-bottom: 50px;}
-    .white-box {
-        background-position: top center;
-        background-repeat: no-repeat;
+    a.modal-trig {
+        transition-duration: 500ms;
+        * {transition-duration: 500ms;}
+        .white-box {
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+        .white-box.pink-ellipse {background-image: url(../images/shop_bkgd_ellipse_pink.svg);}
+        .white-box.green-ellipse {background-image: url(../images/shop_bkgd_ellipse_green.svg);}
+        &:hover {
+            text-decoration: none;
+            .white-box {
+                margin: 3% 5px 5%;
+                img {
+                    transform-origin: center;
+                    transform: scale(1.05) rotate(-3deg);
+                }
+            }
+        }
     }
-    .white-box.pink-ellipse {background-image: url(../images/shop_bkgd_ellipse_pink.svg);}
-    .white-box.green-ellipse {background-image: url(../images/shop_bkgd_ellipse_green.svg);}
-    .white-box.ltgrey-ellipse {background-image: url(../images/shop_bkgd_ellipse_ltgrey.svg);}
     svg#order_basket {
         display: block;
         width: 90%;
