@@ -115,27 +115,29 @@
                 <div id="order_basket_table"></div>
             </div>
             <div class="col-12 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-xl-5">
-                <form name="get-pricing" class="get-pricing" method="post" data-netlify="true">
+                <form name="Get pricing form" class="get-pricing" method="post" data-netlify="true">
                     <h3 class="mb-3">Contact info:</h3>
                     <div class="form-row">
                         <div class="col-12 mb-3">
-                            <input type="text" name="first-name" placeholder="First name" value="" required />
+                            <input type="text" name="First name" placeholder="First name" value="" required />
                         </div>
                         <div class="col-12 mb-3">
-                            <input type="text" name="last-name" placeholder="Last name" value="" required />
+                            <input type="text" name="Last name" placeholder="Last name" value="" required />
                         </div>
                         <div class="col-12 mb-3">
-                            <input type="email" name="email" placeholder="Email" value="" required>
+                            <input type="email" name="Email" placeholder="Email" value="" required>
                         </div>
                         <div class="col-12 mb-3">
-                            <textarea name="comments" rows="5" placeholder="Comments" value=""></textarea>
+                            <textarea name="Comments" rows="5" placeholder="Comments" value=""></textarea>
                             <textarea id="order_request" name="Order request" hidden value=""></textarea>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <button id="form_submit_btn" type="submit" name="Get pricing submit" class="btn">Get pricing</button>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="col-12">
-                <button id="form_submit_btn" type="submit" name="button" class="btn">Get pricing</button>
             </div>
         </div>
     </div><!-- END .container -->
