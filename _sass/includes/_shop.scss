@@ -26,12 +26,38 @@ section#shop {
         height: auto;
         margin: 40px auto;
     }
+    h3 {text-align: center;}
+    #order_basket_table table {
+        width: 80%;
+        margin: 10px 10% 30px;
+        tbody {border-bottom: 2px solid $color-black;
+            tr {
+                border-bottom: 1px solid $color-black;
+                td {
+                    // font-weight: 400;
+                    padding: 10px;
+                    text-align: right;
+                    &:nth-of-type(1) { text-align: left; }
+                }
+                &:hover { td { background-color: rgba($color-2,0.3); } }
+                &:first-of-type {
+                    border-bottom: 2px solid $color-black;
+                    border-top: 2px solid $color-black;
+                    color: $color-1;
+                    font-weight: 700;
+                    &:hover { td { background-color: rgba($color-2,0); } }
+                }
+            }
+        }
+    }
     button#form_submit_btn {
-        margin: 40px auto 100px;
+        margin: 40px auto 150px;
     }
 }
 
 @media only screen and (min-width: 576px) {}
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    h3 {text-align: left;}
+}
 @media only screen and (min-width: 992px) {}
 @media only screen and (min-width: 1200px) {}
