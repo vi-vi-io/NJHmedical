@@ -44,6 +44,8 @@ $( document ).ready(function() {
         } else {
             basket[item_exists_quan] += (item_quan);
         }
+        // push basket array to hidden form field
+        document.getElementById("order_request").value = basket.toString();
         // Draw HTML table
         var perrow = 2, // 2 cells per row
         html_build = "<table><tr>";
@@ -61,6 +63,5 @@ $( document ).ready(function() {
         html_build += "</tr></table>";
         // Attach HTML to container and add to pricing form
         document.getElementById("order_basket_table").innerHTML = html_build;
-        document.getElementById("order_request").value = html_build;
     });//CLOSE ==> pricing form handler
 });//CLOSE ==> document.ready
