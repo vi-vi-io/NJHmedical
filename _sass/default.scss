@@ -77,6 +77,10 @@ section.section-middle {
         text-align: center;
     }
 }
+.selector-box.no-size {
+    opacity: 0;
+    height: 1px;
+}
 button.btn {
     color: $color-4;
     font-weight: 600;
@@ -101,6 +105,22 @@ input[type=text], input[type=email], textarea {
     color: $color-1;
     font-weight: 700;
 }
+//custom radio buttons - https://stackoverflow.com/questions/17541614/use-images-instead-of-radio-buttons
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}/* HIDE RADIO */
+[type=radio] + span {
+    cursor: pointer;
+    color: $color-2;
+    font-size: 1.15em;
+    font-weight: 700;
+}/* not selected */
+[type=radio]:checked + span, [type=radio]:hover + span {
+    color: $color-1;
+}/* selected and hover */
 // titles
 h2 {
     font-weight: 500;
@@ -139,18 +159,18 @@ h5 {
     .info-modal-close {
         position: absolute;
         top: -20px;
-    	right: -20px;
-    	// z-index: 99999;
-    	padding: 7px;
+        right: -20px;
+        // z-index: 99999;
+        padding: 7px;
         text-shadow: none;
-    	color: $color-1;
-    	opacity: 1;
-    	font-size: 3.5em;
-    	font-weight: 100;
+        color: $color-1;
+        opacity: 1;
+        font-size: 3.5em;
+        font-weight: 100;
         // .modal-close-x { z-index: 100000;}
     }
     .modal-dialog {
-    	padding: 0;
+        padding: 0;
         .modal-content {
             background-color: #fff;
             background-image: url(../images/modal_bkgd.svg);
@@ -193,13 +213,13 @@ h5 {
 @media only screen and (min-width: 768px) {
     .white-box {padding: 35px;}
     /*---- MODAL ----*/
-	.modal {
+    .modal {
         .info-modal-close {
-    		top: 0px;
-    		right: -80px;
-        	font-size: 5em;
-        	text-shadow: 0 0 20px $color-white;
-    	}
+            top: 0px;
+            right: -80px;
+            font-size: 5em;
+            text-shadow: 0 0 20px $color-white;
+        }
         .modal-dialog .modal-content {
             // margin-top: 10vh;
             padding: 20px;

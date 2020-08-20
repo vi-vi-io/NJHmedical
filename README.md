@@ -2,8 +2,8 @@
 ## INTRODUCTION  
 This custom home page for NJH medical includes:  
 * Netlify form that notifies info@njhmedical.com of new submits.  
-* custom js form handler that dynamically generates a table of items and quantities ("Your order"), and then includes the table data, along with requestor's contact info and optional comment, in the quote request submission notification email.  
-* custom html and SVG animation using css transitions/transforms and/or javascript.  
+* Custom js form handler that dynamically generates a table of items and quantities ("Your order"), and then includes the table data, along with requestor's contact info and optional comment, in the quote request submission notification email.  
+* Custom html and SVG animation using css transitions/transforms and/or javascript.  
 illustration and design by:
 _____________________  
 ## TECHNOLOGIES  

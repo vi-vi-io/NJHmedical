@@ -33,9 +33,19 @@ $( document ).ready(function() {
 //START ==> pricing form handler
     var basket = ["Item", "Quantity"];
     $("button.btn-add").click(function() {
-        var item_name = this.name;
-        var quan_input = this.dataset.targetid;
+        var quan_input = ("quan_" + this.dataset.targetid);
+        var size_input = ("size_" + this.dataset.targetid);
         var item_quan = Number(document.getElementById(quan_input).value);
+        const rb_selected = document.querySelectorAll('input[name="' + size_input +'"]');
+            let selected_size;
+            for (const rb of rb_selected) {
+                if (rb.checked) {
+                    selected_size = rb.value;
+                    break;
+                }
+            }
+        var item_size = selected_size;
+        var item_name = this.name + " " + selected_size;
         var item_exists = Number(basket.indexOf(item_name));
         var item_exists_quan = Number(item_exists + 1);
         if (item_exists == -1) {
@@ -44,7 +54,7 @@ $( document ).ready(function() {
         } else {
             basket[item_exists_quan] += (item_quan);
         }
-        // push basket array to hidden form field
+        // push basket array to hidden form field for form sub
         document.getElementById("order_request").value = basket.toString();
         // Draw HTML table
         var perrow = 2, // 2 cells per row
@@ -60,8 +70,13 @@ $( document ).ready(function() {
                 html_build += "</tr><tr>";
             }
         }
-        html_build += "</tr></table>";
+        html_build += '</tr></table>';
         // Attach HTML to container and add to pricing form
         document.getElementById("order_basket_table").innerHTML = html_build;
-    });//CLOSE ==> pricing form handler
+    });//CLOSE ==> add button
+    $("#btn_clear").click(function() {
+        basket.length = 0;
+        basket = ["Item", "Quantity"];
+        document.getElementById("order_basket_table").innerHTML = "";
+    });//CLOSE ==> clear button
 });//CLOSE ==> document.ready
