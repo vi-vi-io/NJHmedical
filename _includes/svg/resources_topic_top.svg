@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="resources_topic_top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
-	<title>How can I find more information on Covid such as how to porperly wear a mask? Video content</title>
-  	<desc>Watch the educational videos created by the World Health Organization.</desc>
+<svg version="1.1" role="button" aria-labelledby="title_resources_topic_top desc_resources_topic_top"  id="resources_topic_top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	<title id="title_resources_topic_top">How can I find more information on Covid such as how to porperly wear a mask? Video content</title>
+  	<desc id="desc_resources_topic_left">Watch the educational videos created by the World Health Organization.</desc>
 	<defs>
 	    <filter id="dropshadow" height="130%">
 	    	<feGaussianBlur in="SourceAlpha" stdDeviation="3"/>

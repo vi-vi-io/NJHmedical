@@ -79,4 +79,17 @@ $( document ).ready(function() {
         basket = ["Item", "Quantity"];
         document.getElementById("order_basket_table").innerHTML = "";
     });//CLOSE ==> clear button
+//
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        effect: 'flip',
+        grabCursor: true,
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    })
 });//CLOSE ==> document.ready

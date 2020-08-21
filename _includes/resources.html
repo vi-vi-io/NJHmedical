@@ -9,19 +9,45 @@
         </div>
         <div class="row row-eq-height">
             <div class="align-self-center col-12 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-4">
-                {% include svg/resources_topic_left.svg %}
+                <div class="d-none d-lg-block">
+                    {% include svg/resources_topic_left.svg %}
+                </div>
                 <div class="d-lg-none">
-                    <div class="white-box">
-                        <h3>[image slider]</h3>
+                    <div class="">
+                        <!-- Slider main container -->
+                        <div class="swiper-container">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    {% include svg/resources_topic_left.svg %}
+                                </div>
+                                <div class="swiper-slide">
+                                    {% include svg/resources_topic_top.svg %}
+                                </div>
+                                <div class="swiper-slide">
+                                    {% include svg/resources_topic_right.svg %}
+                                </div>
+                            </div>
+                            <!-- Paginator -->
+                            <div class="swiper-pagination"></div>
+                            <!-- Navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-sm-10 offset-sm-1 col-md-6 col-lg-4 offset-md-0">
-                {% include svg/resources_topic_top.svg %}
+                <div class="d-none d-lg-block">
+                    {% include svg/resources_topic_top.svg %}
+                </div>
                 {% include svg/resources_doctor.svg %}
             </div>
             <div class="align-self-center col-12 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-4">
-                {% include svg/resources_topic_right.svg %}
+                <div class="d-none d-lg-block">
+                    {% include svg/resources_topic_right.svg %}
+                </div>
             </div>
         </div>
     </div><!-- END .container -->

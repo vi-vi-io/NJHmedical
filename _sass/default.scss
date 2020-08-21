@@ -203,7 +203,10 @@ h5 {
     background: $color-white;
     opacity: 1;
 }
-
+//Swiper (https://swiperjs.com)
+.swiper-container {
+    .swiper-slide.white-box {margin: 0;}
+}
 @media only screen and (min-width: 576px) {
     .white-box {padding: 25px;}
     .modal {

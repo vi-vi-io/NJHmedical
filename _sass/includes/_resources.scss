@@ -7,18 +7,18 @@ section#resources {
             .ellipse_s, .ellipse_m { transform: scale(1.1); }
         }
     }
-    svg#resources_topic_left { transform-origin: top left; display: none;}
-    svg#resources_topic_right { transform-origin: top right; display: none;}
-    svg#resources_topic_top { transform-origin: top; display: none;}
+    svg#resources_topic_left { transform-origin: top left;}
+    svg#resources_topic_right { transform-origin: top right;}
+    svg#resources_topic_top { transform-origin: top;}
 }
 
 @media only screen and (min-width: 576px) {}
 @media only screen and (min-width: 768px) {}
 @media only screen and (min-width: 992px) {
     section#resources {
-        svg#resources_topic_left {display: block;}
-        svg#resources_topic_right {display: block;}
-        svg#resources_topic_top {display: block;}
+        svg#resources_topic_left {}
+        svg#resources_topic_right {}
+        svg#resources_topic_top {}
     }
 }
 @media only screen and (min-width: 1200px) {}
