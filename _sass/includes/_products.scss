@@ -1,4 +1,4 @@
-section#shop {
+section#products {
     // .row {margin-bottom: 50px;}
     a.modal-trig {
         transition-duration: 500ms;
@@ -7,8 +7,8 @@ section#shop {
             background-position: top center;
             background-repeat: no-repeat;
         }
-        .white-box.pink-ellipse {background-image: url(../images/shop_bkgd_ellipse_pink.svg);}
-        .white-box.green-ellipse {background-image: url(../images/shop_bkgd_ellipse_green.svg);}
+        .white-box.pink-ellipse {background-image: url(../images/products_bkgd_ellipse_pink.svg);}
+        .white-box.green-ellipse {background-image: url(../images/products_bkgd_ellipse_green.svg);}
         &:hover {
             text-decoration: none;
             .white-box {

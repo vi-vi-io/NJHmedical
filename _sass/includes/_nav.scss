@@ -16,7 +16,6 @@ nav.navbar {
         transition-duration: 1000ms;
     }
     a {
-        margin-right: 30px;
         font-weight: 600;
         color: $color-black;
         transition-duration: 1000ms;
@@ -43,6 +42,12 @@ nav.navbar {
 }
 @media only screen and (min-width: 768px) {}
 @media only screen and (min-width: 992px) {
+    nav.navbar {
+        a {
+            font-size: .9em;
+            margin-right: 10px;
+        }
+    }
     nav.navbar.navbar-top {
         background: rgba($color-white, 0);
         border-bottom: none;
@@ -66,7 +71,14 @@ nav.navbar {
         }
     }
 }
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    nav.navbar {
+        a {
+            font-size: 1em;
+            margin-right: 20px;
+        }
+    }
+}
 
 @media only screen and (max-width: 360px) {
     nav.navbar {

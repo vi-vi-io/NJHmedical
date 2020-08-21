@@ -2,11 +2,53 @@ footer section {
     background: rgb(103,101,180);
     background: linear-gradient(90deg, rgba(103,101,180,1) 0%, rgba(104,144,227,1) 100%);
     color: $color-white;
+    text-align: left;
+    font-size: .85em;
     padding: 30px;
     margin-top:50px;
+    img {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    .btn {
+        color: $color-white;
+        background: rgba($color-white, 0);
+        border: 2px solid rgba($color-white, 0);
+        border-radius: 10px;
+        width: auto;
+        margin: 10px 5px;
+        float: right;
+        transition-duration: 500ms;
+        &:hover {
+            color: $color-white;
+            background: rgba($color-white, .5);
+            border: 2px solid rgba($color-white, 1);
+            transition-duration: 500ms;
+        }
+    }
+    .social_links {
+        float: right;
+    }
 }
 
-@media only screen and (min-width: 576px) {}
-@media only screen and (min-width: 768px) {}
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 576px) {
+    footer section {font-size: .9em;}
+}
+@media only screen and (min-width: 768px) {
+    footer section {
+        font-size: .95em;
+        img {
+            width: 80%;
+        }
+    }
+}
+@media only screen and (min-width: 992px) {
+    footer section {
+        font-size: 1em;
+        img {
+            width: 50%;
+            margin: 0 0 20px;
+        }
+    }
+}
 @media only screen and (min-width: 1200px) {}
