@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 // nav transform on scroll
     window.addEventListener("scroll", function() {
-        if (window.scrollY > 300) {
+        if (window.scrollY > 150) {
             $('.navbar').removeClass("navbar-top");
         }
         else {

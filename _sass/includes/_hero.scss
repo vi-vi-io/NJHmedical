@@ -4,11 +4,13 @@ section#hero {
         img.hero_banner, img.hero_title {
             max-width: 100%;
             height: auto;
-            margin: 0;
+            margin: 0 auto;
         }
-        h2, h3, p {text-align: center;}
-        h2 {font-size: 1.5em;}
-        h2, h3 {margin-top: 40px;}
+        .pane {
+            h2, h3, p {text-align: center;}
+            h2 {font-size: 1.5em;}
+            h2, h3 {margin-top: 40px;}
+        }
     }
 }
 
@@ -16,13 +18,9 @@ section#hero {
 @media only screen and (min-width: 768px) {
     section#hero {
         .container-fluid {
-            img.hero_title {
-                max-width: 400px;
-                margin-bottom: 40px;
-                z-index: 10;
-                position: relative;
+            .pane {
+                h2 {font-size: 1.75em;}
             }
-            h2 {margin-top: -150px;}
         }
     }
 }
@@ -30,7 +28,16 @@ section#hero {
     section#hero {
         .container-fluid {
             // img.hero_banner {min-width: 100%;}
-            img.hero_title {max-width: 600px;}
+            img.hero_title {max-width: 250%;}
+            .pane {
+                margin-left: 20%;
+                h2 {
+                    margin-top: 60%;
+                    // font-size: 2em;
+                    text-align:left;
+                }
+            }
+
         }
     }
 }
@@ -39,10 +46,13 @@ section#hero {
         .container-fluid {
             img.hero_banner {min-width: 100%;}
             img.hero_title {
-                max-width: none;
-                margin: 0 auto 40px;
+                // max-width: none;
+                // margin: 0 auto 40px;
             }
-            h2 {margin-top: 30px;}
+            .pane {
+                h2 {font-size: 2.25em;}
+            }
+
         }
     }
 }

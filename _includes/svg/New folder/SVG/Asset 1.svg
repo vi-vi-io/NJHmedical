@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 230.89 150.15">
+    <defs>
+        <style>.cls-1{fill:#e6f1ff;}.cls-2{mask:url(#mask);}.cls-3{fill:#5095ff;}</style>
+        <mask id="mask" x="-42.78" y="-204.68" width="351.29" height="354.83" maskUnits="userSpaceOnUse">
+            <g id="mask0">
+                <path id="mask_shape" data-name="mask shape" class="cls-1" d="M132.87,146.61A175.65,175.65,0,0,0,308.51-29,175.64,175.64,0,0,0,132.87-204.68,175.64,175.64,0,0,0-42.78-29,175.65,175.65,0,0,0,132.87,146.61Z"/>
+            </g>
+        </mask>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <g id="contact_info" data-name="contact info">
+                <g id="superhero_bubble" data-name="superhero bubble">
+                    <g class="cls-2"><g id="superhero">
+                        <g id="sh_body" data-name="sh body">
+                            <g id="sh_torso" data-name="sh torso">
+                                <path class="cls-3" d="M230.89,150.15H0C.35,86.69,51.91,0,115.45,0S230.47,86.69,230.89,150.15Z"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</g>
+</svg>

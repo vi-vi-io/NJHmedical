@@ -1,0 +1,24 @@
+section#resources {
+    * {transition-duration: 500ms;}
+    .section-title {margin-bottom: 10px;}
+    svg {
+        &:hover {
+            .ellipse_l, .topic_text { transform: scale(1.05);}
+            .ellipse_s, .ellipse_m { transform: scale(1.1); }
+        }
+    }
+    svg#resources_topic_left { transform-origin: top left; display: none;}
+    svg#resources_topic_right { transform-origin: top right; display: none;}
+    svg#resources_topic_top { transform-origin: top; display: none;}
+}
+
+@media only screen and (min-width: 576px) {}
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {
+    section#resources {
+        svg#resources_topic_left {display: block;}
+        svg#resources_topic_right {display: block;}
+        svg#resources_topic_top {display: block;}
+    }
+}
+@media only screen and (min-width: 1200px) {}

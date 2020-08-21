@@ -1,5 +1,11 @@
 section#product {
-    .row {margin-bottom: 50px;}
+    .row {margin-bottom: 50px;
+    .care-icon {
+        float: left;
+        padding-right: 10px;
+    }
+    h5 {text-align: left;}
+    }
 }
 
 @media only screen and (min-width: 576px) {}
