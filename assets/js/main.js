@@ -30,7 +30,7 @@ $( document ).ready(function() {
     $(function () {
          $('[data-toggle="popover"]').popover()
     })
-//START ==> pricing form handler
+//START - pricing form handler ==>
     var basket = ["Item", "Quantity"];
     $("button.btn-add").click(function() {
         var quan_input = ("quan_" + this.dataset.targetid);
@@ -79,7 +79,7 @@ $( document ).ready(function() {
         basket = ["Item", "Quantity"];
         document.getElementById("order_basket_table").innerHTML = "";
     });//CLOSE ==> clear button
-//
+// Swiper image carosel
     var mySwiper = new Swiper('.swiper-container', {
         loop: true,
         effect: 'flip',
@@ -95,5 +95,23 @@ $( document ).ready(function() {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-    })
+    });
+// START - GSAP animations
+    var corona_tl = gsap.timeline({repeat:-1, yoyo:true, defaults:{ ease: "power3.out"}});
+    corona_tl.to(".corona_1", {duration: .25, scale: 1.05});
+    corona_tl.to(".corona_2", {duration: .25, scale: 1.1}, "<0.2");
+
+    var virus_tl = gsap.timeline({repeat:-1, yoyo:true, defaults:{ ease: "power3.out"}});
+    virus_tl.to(".virus", {duration: 1, scale: 1.25, y:-10, x:-50});
+    virus_tl.to("#fucia_fade", {duration: 1, scale: 1.25, y:-10, x:-50}, "<");
+
+    var tear_tl = gsap.timeline({repeat:-1, repeatDelay:1.25, defaults:{ ease: "power3.in"}});
+    tear_tl.from("#tear", {duration:.5, scale:0, opacity:0});
+    tear_tl.to("#tear", {duration:1, y:350, opacity:0});
+
+    var hero_bkgd_tl = gsap.timeline({repeat:-1, yoyo:true});
+    hero_bkgd_tl.to("#bkgd_space", {duration:10, y:-15, x:-15});
+    hero_bkgd_tl.to("#sm_bubble_btm", {duration:10, y:25, x:15}, "<");
+    hero_bkgd_tl.to("#sm_bubble_lft", {duration:10, y:-15, x:-15}, "<");
+
 });//CLOSE ==> document.ready

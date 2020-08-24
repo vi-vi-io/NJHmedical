@@ -155,54 +155,33 @@ h5 {
     margin: 20px auto;
 }
 // modals
-.modal {
-    .info-modal-close {
-        position: absolute;
-        top: -20px;
-        right: -20px;
-        // z-index: 99999;
-        padding: 7px;
-        text-shadow: none;
-        color: $color-1;
-        opacity: 1;
-        font-size: 3.5em;
-        font-weight: 100;
-        // .modal-close-x { z-index: 100000;}
-    }
-    .modal-dialog {
-        padding: 0;
-        .modal-content {
-            background-color: #fff;
-            background-image: url(../images/modal_bkgd.svg);
-            background-position: top center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            padding: 30px;
-            // height: auto;
-            // margin-top: 50vh;
-            // height: 90vh;
-            border-radius: 60px;
-            // position: relative;
-            * {text-align: center;}
-            svg.modal-hero {
-                margin: 0;
-                .modal-hero-icon {
+
+.specs-box {
+        background-color: #fff;
+        background-image: url(../images/modal_bkgd.svg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 30px;
+        // height: auto;
+        // margin-top: 50vh;
+        // height: 90vh;
+        border-radius: 60px;
+        // position: relative;
+        * {text-align: center;}
+        svg.modal-hero {
+            margin: 0;
+            .modal-hero-icon {
+                transition-duration: 500ms;
+                &:hover {
                     transition-duration: 500ms;
-                    &:hover {
-                        transition-duration: 500ms;
-                        // transform-origin: center;
-                        transform: scale(1.04);
-                    }
+                    // transform-origin: center;
+                    transform: scale(1.04);
                 }
             }
-            h2 {margin-top: 40px;}
         }
+        h2 {margin-top: 40px;}
     }
-}
-.modal-backdrop {
-    background: $color-white;
-    opacity: 1;
-}
 //Swiper (https://swiperjs.com)
 .swiper-container {
     .swiper-slide .white-box {

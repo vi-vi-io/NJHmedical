@@ -1,7 +1,7 @@
 section#hero {
     .container-fluid {
         padding: 0;
-        img.hero_banner, img.hero_title {
+        svg, img.hero_title {
             max-width: 100%;
             height: auto;
             margin: 0 auto;
@@ -44,7 +44,7 @@ section#hero {
 @media only screen and (min-width: 1200px) {
     section#hero {
         .container-fluid {
-            img.hero_banner {min-width: 100%;}
+            svg {min-width: 100%;}
             img.hero_title {
                 // max-width: none;
                 // margin: 0 auto 40px;

@@ -3291,7 +3291,7 @@
 			c10,0.8,19.9,1.7,29.9,2.5c6.6,0.6,13.1,1,19.7,1.6L312.6,106.7z"/>
 	</g><!-- END .mask-ill -->
 
-	<a data-toggle="popover" data-placement="right" data-html="true" title="Nose clip for tight fit" data-content="<ul><li>FLEXIBLE</li><li>STURDY</li><li>SECURE</li></ul>">
+	<a data-toggle="popover" data-trigger="focus" tabindex="0" class="pop-trig" data-placement="right" data-html="true" title="Nose clip for tight fit" data-content="<ul><li>FLEXIBLE</li><li>STURDY</li><li>SECURE</li></ul>">
 		<g class="modal-hero-icon nose-clip-icon">
 			<path id="Vector_551" class="st4" d="M46.9,124.1c18.2,0,32.9-14.4,32.9-32.1S65,60,46.9,60C28.7,60,14,74.4,14,92.1
 				S28.7,124.1,46.9,124.1z"/>
@@ -3317,7 +3317,7 @@
 		</g><!-- END .nose-clip-icon -->
 	</a>
 
-	<a data-toggle="popover" data-placement="left" data-html="true" title="4 layers of protection" data-content="NJH masks are made with authentic fabrics between 20gsm and 30 gsm thickness. The industry average is between 15-20gsm. Further we have incorporated 4 layers of protection vs. the industry average of 3 layers. NJH has chosen to provide only the highest quality raw materials and 4-ply layering to create a product that is superior than the industry norms! Feel Safe!">
+	<a data-toggle="popover" data-trigger="focus" tabindex="0" class="pop-trig" data-placement="left" data-html="true" title="4 layers of protection" data-content="NJH masks are made with authentic fabrics between 20gsm and 30 gsm thickness. The industry average is between 15-20gsm. Further we have incorporated 4 layers of protection vs. the industry average of 3 layers. NJH has chosen to provide only the highest quality raw materials and 4-ply layering to create a product that is superior than the industry norms! Feel Safe!">
 		<g class="modal-hero-icon layers-icon">
 			<path id="Vector_554" class="st4" d="M346.9,279.2c18.2,0,32.9-15,32.9-33.6S365,212,346.9,212c-18.2,0-32.9,15-32.9,33.6
 				S328.7,279.2,346.9,279.2z"/>
@@ -3337,7 +3337,7 @@
 		</g><!-- END .layers-icon -->
 	</a>
 
-	<a data-toggle="popover" data-placement="left" data-html="true" title="Ear loops" data-content="<ul><li>ELASTIC</li><li>SKIN FRIENDLY</li><li>SECURE</li></ul>">
+	<a data-toggle="popover" data-trigger="focus" tabindex="0" class="pop-trig" data-placement="left" data-html="true" title="Ear loops" data-content="<ul><li>ELASTIC</li><li>SKIN FRIENDLY</li><li>SECURE</li></ul>">
 		<g class="modal-hero-icon ear-loop-icon">
 			<path id="Vector_556" class="st4" d="M435.9,94.1c18.2,0,32.9-14.4,32.9-32.1S454,30,435.9,30C417.7,30,403,44.4,403,62.1
 				S417.7,94.1,435.9,94.1z"/>
@@ -3373,7 +3373,7 @@
 		</g><!-- END .ear-loop-icon -->
 	</a>
 
-	<a data-toggle="popover" data-placement="right" data-html="true" title="Extensively disinfected" data-content="NJH Surgical grade Masks carefully go through a professional sterilization process in accredited facilities using high level medical equipment to ensure the masks are germ free for you!">
+	<a data-toggle="popover" data-trigger="focus" tabindex="0" class="pop-trig" data-placement="right" data-html="true" title="Extensively disinfected" data-content="NJH Surgical grade Masks carefully go through a professional sterilization process in accredited facilities using high level medical equipment to ensure the masks are germ free for you!">
 		<g class="modal-hero-icon disinfect-icon">
 			<path id="Vector_560" class="st4" d="M84.9,333.1c18.2,0,32.9-14.4,32.9-32.1S103,269,84.9,269C66.7,269,52,283.4,52,301.1
 				S66.7,333.1,84.9,333.1z"/>
