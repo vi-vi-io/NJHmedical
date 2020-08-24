@@ -33,13 +33,49 @@
         </div>
         <div class="row row-eq-height align-items-center">
             <div class="order-1 col-12 col-sm-8 offset-sm-2 order-lg-2 col-lg-4 offset-lg-0">
-                <img src="./assets/images/benefits_correct.png" alt="correct mask usage" class="img-fluid">
+
+                <div class="d-lg-none">
+                    <!-- Slider main container -->
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="./assets/images/benefits_correct.png" alt="correct mask usage" class="img-fluid msk-correct">
+                                <p class="cap-correct">Having an individually wrapped mask protects the mask from contamination while traveling and frees the user to eat, drink, apply makeup, etc.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/benefits_wrong_1.png" alt="incorrect mask usage" class="img-fluid msk-wrong">
+                                <p class="cap-wrong">Leaving your mask on your dashboard or hanging it on the rearview mirror exposes the mask to contamination.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/benefits_wrong_2.png" alt="correct mask usage" class="img-fluid msk-wrong">
+                                <p class="cap-wrong">Wearing your mask in transit prevents the user from eating, drinking, etc. Moving it will expose the mask to contamination so the user must keep it on for the duration of their trip.</p>
+                            </div>
+                        </div>
+                        <!-- Paginator -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="d-none d-lg-block block-mid">
+                    <img src="./assets/images/benefits_correct.png" alt="correct mask usage" class="img-fluid msk-correct">
+                    <p class="cap-correct">Having an individually wrapped mask protects the mask from contamination while traveling and frees the user to eat, drink, apply makeup, etc.</p>
+                </div>
             </div>
             <div class="order-2 col-12 col-sm-6 order-lg-1 col-lg-4">
-                <img src="./assets/images/benefits_wrong_1.png" alt="incorrect mask usage" class="img-fluid">
+                <div class="d-none d-lg-block block-lft">
+                    <img src="./assets/images/benefits_wrong_1.png" alt="incorrect mask usage" class="img-fluid msk-wrong">
+                    <p class="cap-wrong">Leaving your mask on your dashboard or hanging it on the rearview mirror exposes the mask to contamination.</p>
+                </div>
             </div>
             <div class="order-3 col-12 col-sm-6 order-lg-3 col-lg-4">
-                <img src="./assets/images/benefits_wrong_2.png" alt="correct mask usage" class="img-fluid">
+                <div class="d-none d-lg-block block-rt">
+                    <img src="./assets/images/benefits_wrong_2.png" alt="correct mask usage" class="img-fluid msk-wrong">
+                    <p class="cap-wrong">Wearing your mask in transit prevents the user from eating, drinking, etc. Moving it will expose the mask to contamination so the user must keep it on for the duration of their trip.</p>
+                </div>
             </div>
         </div>
         <div class="row row-eq-height">

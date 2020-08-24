@@ -1,14 +1,32 @@
 section#benefits {
-    .row {margin-bottom: 50px;
-    .care-icon {
-        float: left;
-        padding-right: 10px;
-    }
-    h5 {text-align: left;}
+    .row {
+        margin-bottom: 50px;
+        .swiper-slide {padding: 20px;}
+        p.cap-correct, p.cap-wrong {
+            font-size: .8em;
+            font-weight: 700;
+            line-height: 1.1em;
+        }
+        p.cap-correct {color: #329e92;}
+        p.cap-wrong {color: #e89aa1;}
+        .care-icon {
+            float: left;
+            padding-right: 10px;
+        }
+        h5 {text-align: left;}
     }
 }
 
 @media only screen and (min-width: 576px) {}
 @media only screen and (min-width: 768px) {}
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .block-lft {padding: 0 10% 0 25%;}
+    .block-rt {
+        padding: 0 25% 0 10%;
+        margin-top: 25px;
+    }
+    p.cap-correct, p.cap-wrong {
+        text-align: center;
+    }
+}
 @media only screen and (min-width: 1200px) {}
