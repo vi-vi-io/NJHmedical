@@ -116,12 +116,12 @@ $( document ).ready(function() {
 
     let superhero_tl = gsap.timeline ({
         scrollTrigger: {
-            trigger:"#pane-1",
+            trigger:"#virus-1",
             start:"top top",
             scrub:true,
             end:300
         }
     });
-    superhero_tl.from("#superhero",{opacity:0, y:150, x:-500, scale:.5});
+    superhero_tl.from("#superhero",{opacity:0, y:150, x:-250, scale:.25});
 
 });//CLOSE ==> document.ready
