@@ -1,10 +1,22 @@
 section#cta {
-    .container-fluid {max-width: 1500px;}
+    .container-fluid {
+        max-width: 1500px;
+        .section-title {margin: 70px auto 0;}
+    }
     // .row {margin-bottom: 50px;}
     .img-cta-globe {margin: 0 auto 50px;}
 }
 
 @media only screen and (min-width: 576px) {}
 @media only screen and (min-width: 768px) {}
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    section#cta {
+        .container-fluid {
+            max-width: 1500px;
+            .section-title {margin: 0 auto 0;}
+        }
+        // .row {margin-bottom: 50px;}
+        .img-cta-globe {margin: 0 auto 50px;}
+    }
+}
 @media only screen and (min-width: 1200px) {}

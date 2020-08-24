@@ -102,26 +102,20 @@ $( document ).ready(function() {
     corona_tl.to(".corona_2", {duration: .25, scale: 1.1}, "<0.2");
 
     var virus_tl = gsap.timeline({repeat:-1, yoyo:true, defaults:{ ease: "power3.out"}});
-    virus_tl.to(".virus", {duration: 1, scale: 1.25, y:-10, x:-50});
+    // virus_tl.to(".virus", {duration: 1, scale: 1.25, y:-10, x:-50});
     virus_tl.to("#fucia_fade", {duration: 1, scale: 1.25, y:-10, x:-50}, "<");
 
-    var tear_tl = gsap.timeline({repeat:-1, repeatDelay:1.25, defaults:{ ease: "power3.in"}});
+    var tear_tl = gsap.timeline({repeat:-1, repeatDelay:.75, defaults:{ ease: "power4.in"}});
     tear_tl.from("#tear", {duration:.5, scale:0, opacity:0});
-    tear_tl.to("#tear", {duration:1, y:350, opacity:0});
+    tear_tl.to("#tear", {duration:.75, y:350, opacity:0});
 
     var hero_bkgd_tl = gsap.timeline({repeat:-1, yoyo:true});
     hero_bkgd_tl.to("#bkgd_space", {duration:10, y:-15, x:-15});
     hero_bkgd_tl.to("#sm_bubble_btm", {duration:10, y:25, x:15}, "<");
     hero_bkgd_tl.to("#sm_bubble_lft", {duration:10, y:-15, x:-15}, "<");
 
-    let superhero_tl = gsap.timeline ({
-        scrollTrigger: {
-            trigger:"#virus-1",
-            start:"top top",
-            scrub:true,
-            end:300
-        }
-    });
-    superhero_tl.from("#superhero",{opacity:0, y:150, x:-250, scale:.25});
+    let superhero_tl = gsap.timeline ({delay:2.5,});
+    superhero_tl.from("#superhero",{duration: 1.5, opacity:0, y:150, x:-250, scale:.25});
+    superhero_tl.from("#pane-1", {duration: 1, opacity:0, });
 
 });//CLOSE ==> document.ready

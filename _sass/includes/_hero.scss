@@ -1,14 +1,28 @@
 section#hero {
-    .container-fluid {
+    position: relative;
+    .container-fluid.banner-box {
+        position: absolute;
         padding: 0;
-        svg, img.hero_title {
-            max-width: 100%;
+        svg {
+            width: 125%;
             height: auto;
-            margin: 0 auto;
+            position:absolute;
+            top:30px; right:0;
         }
+    }
+    .container-fluid.title-box {
+        position: relative;
+        margin-top: 80%;
         .pane {
+            img.hero_title {
+                max-width: 100%;
+                height: auto;
+                margin: 0 auto;
+            }
             h2, h3, p {text-align: center;}
             h2 {font-size: 1.5em;}
+            h3 {font-size: 1.25em;}
+            p {font-size: .9em;}
             h2, h3 {margin-top: 40px;}
         }
     }
@@ -17,40 +31,63 @@ section#hero {
 @media only screen and (min-width: 576px) {}
 @media only screen and (min-width: 768px) {
     section#hero {
-        .container-fluid {
+        .container-fluid.banner-box {
+            svg {
+                width: 100%;
+                top:0;
+            }
+        }
+        .container-fluid.title-box {
+            margin-top: 0;
             .pane {
-                h2 {font-size: 1.75em;}
+                h2 {
+                    margin-top: 250px;
+                    font-size: 1.75em;
+                }
+                h3 {
+                    margin-top: 150px;
+                    font-size: 1.5em;
+                }
+                h3, p {text-align:left;}
             }
         }
     }
 }
 @media only screen and (min-width: 992px) {
     section#hero {
-        .container-fluid {
-            // img.hero_banner {min-width: 100%;}
-            img.hero_title {max-width: 250%;}
-            .pane {
-                margin-left: 20%;
-                h2 {
-                    margin-top: 60%;
-                    // font-size: 2em;
-                    text-align:left;
+        .container-fluid.title-box {
+            .row {
+                height: 100vh;
+                .pane {
+                    margin-left: 30px;
+                    img.hero_title {max-width: 250%;}
+                    h3 {font-size: 2em;}
+                    p {
+                        margin-right: 30px;
+                        font-size: 1.1em;
+                    }
                 }
             }
-
         }
     }
 }
 @media only screen and (min-width: 1200px) {
     section#hero {
-        .container-fluid {
-            svg {min-width: 100%;}
-            img.hero_title {
-                // max-width: none;
-                // margin: 0 auto 40px;
-            }
+        .container-fluid.title-box {
             .pane {
-                h2 {font-size: 2.25em;}
+                img.hero_title {
+                    // max-width: none;
+                    // margin: 0 auto 40px;
+                }
+                h2 {
+                    font-size: 2.25em;
+                    margin-top: 350px;
+                }
+                h3 {
+                    font-size: 2em;
+                    margin-top: 200px;
+                }
+                p {font-size: 1.2em;}
             }
 
         }
