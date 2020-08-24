@@ -114,4 +114,14 @@ $( document ).ready(function() {
     hero_bkgd_tl.to("#sm_bubble_btm", {duration:10, y:25, x:15}, "<");
     hero_bkgd_tl.to("#sm_bubble_lft", {duration:10, y:-15, x:-15}, "<");
 
+    let superhero_tl = gsap.timeline ({
+        scrollTrigger: {
+            trigger:"#pane-1",
+            start:"top top",
+            scrub:true,
+            end:300
+        }
+    });
+    superhero_tl.from("#superhero",{opacity:0, y:150, x:-500, scale:.5});
+
 });//CLOSE ==> document.ready
