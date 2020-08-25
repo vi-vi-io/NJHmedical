@@ -22,13 +22,14 @@ section#hero {
             h2, h3, p {text-align: center;}
             h2 {font-size: 1.5em;}
             h3 {font-size: 1.25em;}
-            p {font-size: .9em;}
+            p {font-size: .9em}
             h2, h3 {margin-top: 40px;}
         }
     }
 }
-
+// - sm
 @media only screen and (min-width: 576px) {}
+// - md
 @media only screen and (min-width: 768px) {
     section#hero {
         .container-fluid.banner-box {
@@ -45,22 +46,31 @@ section#hero {
                     font-size: 1.75em;
                 }
                 h3 {
-                    margin-top: 150px;
+                    margin-top: 135px;
                     font-size: 1.5em;
                 }
+                p {margin-right: 10px;}
                 h3, p {text-align:left;}
             }
         }
     }
 }
+// - lg
 @media only screen and (min-width: 992px) {
     section#hero {
+        .container-fluid.banner-box {
+            svg {
+                width: 100%;
+                top:0;
+            }
+        }
         .container-fluid.title-box {
             .row {
-                height: 100vh;
+                // height: 100vh;
                 .pane {
                     margin-left: 30px;
                     img.hero_title {max-width: 250%;}
+                    h2 {margin-top: 350px;}
                     h3 {font-size: 2em;}
                     p {
                         margin-right: 30px;
@@ -71,25 +81,53 @@ section#hero {
         }
     }
 }
+// - xl
 @media only screen and (min-width: 1200px) {
     section#hero {
         .container-fluid.title-box {
-            .pane {
-                img.hero_title {
-                    // max-width: none;
-                    // margin: 0 auto 40px;
+            .row {
+                .pane {
+                    img.hero_title {
+                        width: 60%;
+                        margin: 10px auto 40px;
+                    }
+                    h2 {
+                        font-size: 2.5em;
+                        margin-top: 45%;
+                        // text-align: left;
+                    }
+                    h3 {
+                        font-size: 2em;
+                        margin-top: 200px;
+                    }
+                    p {font-size: 1.2em;}
                 }
-                h2 {
-                    font-size: 2.25em;
-                    margin-top: 350px;
-                }
-                h3 {
-                    font-size: 2em;
-                    margin-top: 200px;
-                }
-                p {font-size: 1.2em;}
             }
-
+        }
+    }
+}
+@media only screen and (min-width: 2200px) {
+    section#hero {
+        .container-fluid.title-box {
+            .row {
+                .pane {
+                    img.hero_title {
+                        width: 60%;
+                        margin: 10px 10px 40px;
+                        float: right;
+                    }
+                    h2 {
+                        font-size: 3em;
+                        margin-top: 50%;
+                        text-align: right;
+                    }
+                    h3 {
+                        font-size: 2.5em;
+                        margin-top: 200px;
+                    }
+                    p {font-size: 1.4em;}
+                }
+            }
         }
     }
 }

@@ -12,11 +12,13 @@ section#cta {
 @media only screen and (min-width: 992px) {
     section#cta {
         .container-fluid {
+            margin-top: 100px;
             max-width: 1500px;
-            .section-title {margin: 0 auto 0;}
+            .section-title {margin: 50px auto;}
         }
         // .row {margin-bottom: 50px;}
         .img-cta-globe {margin: 0 auto 50px;}
     }
 }
 @media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 2400px) {}
