@@ -5116,7 +5116,7 @@
 		</g><!-- END .nose-clip-icon -->
 	</a>
 
-	<a data-toggle="popover" data-trigger="focus" tabindex="0" class="pop-trig" data-placement="left" data-html="true" title="5 layers of protection" data-content="NJH KN95 masks utilize 5 layers of protection compared to others who use only 4. This ensures better protection!">
+	<a data-toggle="popover" data-trigger="focus" tabindex="0" class="pop-trig" data-placement="bottom" data-html="true" title="5 layers of protection" data-content="NJH KN95 masks utilize 5 layers of protection compared to others who use only 4. This ensures better protection!">
 		<g class="modal-hero-icon layers-icon">
 			<path id="Vector_880" class="st4" d="M318.9,311.2c18.2,0,32.9-15,32.9-33.6S337,244,318.9,244c-18.2,0-32.9,15-32.9,33.6
 				S300.7,311.2,318.9,311.2z"/>
@@ -5172,7 +5172,7 @@
 		</g><!-- END .ear-loop-icon -->
 	</a>
 
-	<a data-toggle="popover" data-trigger="focus" tabindex="0" class="pop-trig" data-placement="right" data-html="true" title="Extensively disinfected" data-content="All materials have been extensively tested in reputable labs to ensure they are authentic and skin friendly!">
+	<a data-toggle="popover" data-trigger="focus" tabindex="0" class="pop-trig" data-placement="bottom" data-html="true" title="Extensively disinfected" data-content="All materials have been extensively tested in reputable labs to ensure they are authentic and skin friendly!">
 		<g class="modal-hero-icon disinfect-icon">
 			<path id="Vector_886" class="st4" d="M89.9,306.1c18.2,0,32.9-14.4,32.9-32.1S108,242,89.9,242S57,256.4,57,274.1
 				S71.7,306.1,89.9,306.1z"/>

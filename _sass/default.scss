@@ -155,20 +155,26 @@ h5 {
     margin: 20px auto;
 }
 // modals
-
+p.sub-head {margin-top: -10px;}
 .specs-box {
         background-color: #fff;
         background-image: url(../images/modal_bkgd.svg);
         background-position: top center;
         background-repeat: no-repeat;
         background-size: contain;
-        padding: 30px;
+        padding: 10px 30px 30px;
         // height: auto;
         // margin-top: 50vh;
         // height: 90vh;
         border-radius: 60px;
         // position: relative;
         * {text-align: center;}
+        p.spec-direct {
+            display: block;
+            margin-top: -40px
+            font-size.75em;
+            font-weight: 700;
+        }
         svg.modal-hero {
             margin: 0;
             .modal-hero-icon {
@@ -216,6 +222,7 @@ h5 {
 }
 @media only screen and (min-width: 576px) {
     .white-box {padding: 25px;}
+    .specs-box {padding: 10px 30px 30px;}
     .modal {
         .modal-lg { max-width: 80% }
     }
@@ -225,6 +232,7 @@ h5 {
 }
 @media only screen and (min-width: 768px) {
     .white-box {padding: 35px;}
+    .specs-box {padding: 15px 35px 35px;}
     .swiper-slide .white-box {padding: 35px 60px}
     /*---- MODAL ----*/
     .modal {
@@ -243,7 +251,9 @@ h5 {
 }
 @media only screen and (min-width: 992px) {
     .white-box {padding: 45px;}
+    .specs-box {padding: 20px 45px 45px;}
 }
 @media only screen and (min-width: 1200px) {
     .white-box {padding: 60px;}
+    .specs-box {padding: 25px 60px 60px;}
 }
