@@ -5,6 +5,7 @@ section#resources {
         &:hover {
             .ellipse_l, .topic_text { transform: scale(1.05);}
             .ellipse_s, .ellipse_m { transform: scale(1.1); }
+            .topic_text { transform: translate(-2.3041 -66.359);}
         }
     }
     svg#resources_topic_left { transform-origin: top left;}

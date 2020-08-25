@@ -188,6 +188,24 @@ p.sub-head {margin-top: -10px;}
         }
         h2 {margin-top: 40px;}
     }
+//Popovers
+    .popover {
+        border-radius: 20px;
+        padding: 20px;
+        background-color: #FAB8BC;
+        color: $color-white;
+    }
+    .popover-header {
+        color: $color-5;
+        font-weight: 900;
+        text-align: center;
+        font-size: 1.3em;
+        background: none;
+    }
+    .popover-body {
+        color: $color-white;
+        font-weight: 600;
+    }
 //Swiper (https://swiperjs.com)
 .swiper-container {
     .swiper-slide .white-box {

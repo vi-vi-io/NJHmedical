@@ -1,0 +1,48 @@
+<svg width="428" height="329" viewBox="0 0 428 329" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="resources_topic_right">
+<g id="rtr-ellipse-sm" filter="url(#filter0_d)">
+<ellipse cx="27.4888" cy="305.696" rx="23.5" ry="14.5" transform="rotate(4.15503 27.4888 305.696)" fill="white"/>
+</g>
+<g id="rtr-ellipse-med" filter="url(#filter1_d)">
+<circle cx="66.5777" cy="262.532" r="14.5" transform="rotate(19.6528 66.5777 262.532)" fill="white"/>
+</g>
+<g id="rtr-ellipse-big" filter="url(#filter2_d)">
+<ellipse cx="239" cy="146" rx="185" ry="146" fill="white"/>
+</g>
+<g id="rtr-sub-title">
+<text fill="#6984AE" xml:space="preserve" style="white-space: pre" font-family="Montserrat" font-size="16" font-weight="500" letter-spacing="0px"><tspan x="111.391" y="146.736">Watch the </tspan><tspan x="178.953" y="170.736">created by the World </tspan><tspan x="111.602" y="194.736">Health Organization,  and read </tspan><tspan x="116.352" y="218.736">through the information they </tspan><tspan x="176.93" y="242.736">have gathered </tspan></text>
+<text fill="#6984AE" xml:space="preserve" style="white-space: pre" font-family="Montserrat" font-size="16" font-weight="500" letter-spacing="0px" text-decoration="underline"><tspan x="174.656" y="170.736"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/videos"> </a></tspan></text>
+<text fill="#5095FF" xml:space="preserve" style="white-space: pre" font-family="Montserrat" font-size="16" font-weight="500" letter-spacing="0px" text-decoration="underline"><tspan x="200.312" y="146.736"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/videos">Covid myth busting </a></tspan><tspan x="122.375" y="170.736"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/videos">videos</a></tspan></text>
+</g>
+<text id="rtr-title" fill="#F79FA8" xml:space="preserve" style="white-space: pre" font-family="Montserrat" font-size="16" font-weight="bold" letter-spacing="0px"><tspan x="101.297" y="82.736">How can I find more information </tspan><tspan x="186.195" y="106.736">on Covid-19?</tspan></text>
+</g>
+<defs>
+<filter id="filter0_d" x="0.0266418" y="291.133" width="54.9244" height="37.1264" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.792157 0 0 0 0 0.882353 0 0 0 0 0.996078 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_d" x="48.0737" y="248.028" width="37.0079" height="37.0079" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.792157 0 0 0 0 0.882353 0 0 0 0 0.996078 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter2_d" x="50" y="0" width="378" height="300" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.792157 0 0 0 0 0.882353 0 0 0 0 0.996078 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>
