@@ -124,8 +124,8 @@ $( document ).ready(function() {
     hero_bkgd_tl.to("#sm_bubble_btm", {duration:10, y:25, x:15}, "<");
     hero_bkgd_tl.to("#sm_bubble_lft", {duration:10, y:-15, x:-15}, "<");
 
-    let superhero_tl = gsap.timeline ({delay:0,});
-    superhero_tl.from("#superhero",{duration: 1.5, opacity:0, y:150, x:-250, scale:.25});
+    let superhero_tl = gsap.timeline ({delay:.5,});
+    superhero_tl.to("#superhero",{duration: 1.5, opacity:1, y:-200, x:200, scale:10});
     // superhero_tl.from("#pane-1", {duration: 1, opacity:0, });
 
 });//CLOSE ==> document.ready
